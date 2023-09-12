@@ -21,7 +21,7 @@ function GradTop(){
 						</linearGradient>
 				</defs>
 				<rect fill="url(#linearGradient-1)" className="w-screen h-24" />
-		</svg>
+		</svg>	
 	)
 }
 function GradBottom(){
@@ -30,7 +30,7 @@ function GradBottom(){
 				<defs>
 					<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" offset="100%"></stop>
+            <stop stop-color="#FBEAEB" offset="100%"></stop>
         	</linearGradient>
 				</defs>
 				<rect fill="url(#linearGradient-2)" className="w-screen h-24" />
@@ -51,7 +51,7 @@ function Background() {
 }
 export function Hero() {
   return (
-			<div className="relative overflow-hidden bg-aoc-pink/80">
+			<div className="relative overflow-hidden bg-aoc-pink">
 				<Background />
 				<div className="relative pb-16 pt-6 sm:pb-24 ">
 					<Container className="pb-16 pt-20 text-center lg:pt-32">
@@ -73,10 +73,6 @@ export function Hero() {
 						</p>
 						</Container>
 				</div>
-				
 			</div>
-			
-
-
   )
 }
