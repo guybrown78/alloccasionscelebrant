@@ -55,7 +55,7 @@ export function Hero() {
 				<Background />
 				<div className="relative pb-16 pt-6 sm:pb-24 ">
 					<Container className="pb-16 pt-20 text-center lg:pt-32">
-						<h1 className="mx-auto max-w-4xl font-display text-5xl font-medium  tracking-wide text-aoc-navy sm:text-7xl leading-10">
+						<h1 className="mx-auto max-w-4xl font-display text-5xl font-light  tracking-wide text-aoc-navy sm:text-7xl leading-10 bg-aoc-pink/20">
 							A&nbsp;
 							<span className="relative whitespace-nowrap">
 								<Underline />
@@ -68,7 +68,7 @@ export function Hero() {
 							</span>
 							{' '}Presence.
 						</h1>
-						<p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+						<p className="mx-auto mt-6 max-w-2xl text-lg font-light tracking-tight text-aoc-navy">
 							Independent celebrant of all occasions.
 						</p>
 						</Container>

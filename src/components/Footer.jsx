@@ -187,7 +187,7 @@ export function Footer() {
 				<Container>
 					<div className="flex flex-col items-center py-10 sm:flex-row-reverse sm:justify-between">
 						
-							<LogoStamp className="w-16 sm:w-20 fill-aoc-pink-dark"/>
+							<LogoStamp className="w-16 sm:w-20 fill-aoc-pink/80"/>
 							<p className="mt-6 text-center md:text text-sm text-slate-500 sm:mt-0">
 								Copyright &copy; {new Date().getFullYear()} All Occasions Celebrant. All&nbsp;rights&nbsp;reserved.
 							</p>
