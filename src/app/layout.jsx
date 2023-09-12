@@ -1,28 +1,29 @@
-import { Inter, Lexend } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - All Occasions Celebrant',
+    default: 'All Occasions Celebrant - Independent celebrant of all occasions',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Independent celebrant of all occasions. Providing a positive and personable presence.',
 }
 
-const inter = Inter({
+const poppins = Poppins({
   subsets: ['latin'],
+	weight:["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-poppins',
 })
 
-const lexend = Lexend({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-lexend',
-})
+// const lexend = Lexend({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-lexend',
+// })
 
 export default function RootLayout({ children }) {
   return (
@@ -30,8 +31,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={clsx(
         'h-full scroll-smooth bg-white antialiased',
-        inter.variable,
-        lexend.variable
+        poppins.variable
       )}
     >
       <body className="flex h-full flex-col">{children}</body>

@@ -22,9 +22,18 @@ module.exports = {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: 'var(--font-inter)',
-        display: 'var(--font-lexend)',
+        sans: 'var(--font-poppins)',
+        display: 'var(--font-poppins)',
       },
+			colors: ({ colors }) => ({
+        gray: colors.neutral,
+				"aoc-navy": '#2B1A5D',
+				"aoc-navy-light": '#463577',
+				"aoc-navy-dark": '#21114E',
+				"aoc-pink": '#FBEAEB',
+				"aoc-pink-light": '#FCF2F3',
+				"aoc-pink-dark": '#F4E3E6',
+      }),
       maxWidth: {
         '2xl': '40rem',
       },
