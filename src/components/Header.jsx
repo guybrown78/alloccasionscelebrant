@@ -97,7 +97,7 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" responsive />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
@@ -110,7 +110,7 @@ export function Header() {
             {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
-            <Button href="/register" color="pink">
+            <Button href="/hello" color="pink">
               <span>
                 Say hello
               </span>
