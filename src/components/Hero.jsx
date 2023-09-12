@@ -42,7 +42,7 @@ function Background() {
 		<div className="absolute inset-y-0 block h-full w-screen" aria-hidden="true">
         <div className="relative mx-auto h-full">
 					<GradTop className="w-full h-24"/>
-          <LogoStamp className="transition scale-125 translate-y-1/3 translate-x-1/4 md:scale-150 md:translate-y-0 md:translate-x-2/4 lg:scale-100 lg:translate-x-1/4 fill-aoc-pink/25"/>
+          <LogoStamp className="transition scale-125 translate-y-1/3 translate-x-1/4 md:scale-150 md:translate-y-0 md:translate-x-2/4 lg:scale-100 lg:translate-x-1/4 fill-aoc-pink-light"/>
 					<GradBottom className="w-full h-24"/>
         </div>
 		</div>
@@ -51,7 +51,7 @@ function Background() {
 }
 export function Hero() {
   return (
-			<div className="relative overflow-hidden bg-aoc-pink-light/30">
+			<div className="relative overflow-hidden bg-aoc-pink/80">
 				<Background />
 				<div className="relative pb-16 pt-6 sm:pb-24 ">
 					<Container className="pb-16 pt-20 text-center lg:pt-32">
