@@ -11,34 +11,31 @@ export function About(){
 
 				<div className="py-24 sm:py-32">
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
-						<div className="mx-auto max-w-2xl lg:mx-0">
-							<h2 className="text-3xl font-light tracking-tight text-aoc-navy-dark sm:text-4xl">Full Celebrancy Services Tailor-Made for All Occasions.</h2>
-							<p className="mt-6 text-lg font-extralight leading-8 text-aoc-navy-dark">
-								At All Occasions Celebrant we listen your needs, communicate ideas and work closely with you, creating beautiful bespoke cereomies. We specialise in infusing your unique story and emotions into unforgettable moments.
-							</p>
+						<div className="mx-auto lg:mx-0">
+						
+								<h2 className="text-3xl font-light tracking-tight text-aoc-navy-dark sm:text-4xl">Celebrating Life's Moments: Our Brand Essence.</h2>
+
+								<div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-lg font-extralight leading-8 text-aoc-navy-dark lg:max-w-none lg:grid-cols-2">
+								<div>
+									<p>
+										At All Occasions Celebrant, we proudly stand as independent celebrants, ready to orchestrate memorable moments for all occasions. Our commitment goes beyond mere officiating; we bring a positive and personable presence to every event, ensuring that your journey through life's milestones is not just special but deeply meaningful.
+									</p>
+									<p className="mt-8">
+										We believe in crafting ceremonies that break free from the mold of 'how it should be' and embrace 'how it could be.' Our imaginative and creative approach allows us to design bespoke ceremonies that are 'just right' for you and your occasion. 
+									</p>
+								</div>
+								<div>
+									<p>
+										Each celebration becomes a canvas, where your unique story takes center stage. Whether it's a wedding, vow renewal, naming ceremony, or a farewell tribute, we sculpt these moments into works of art that resonate with your emotions and dreams. 
+									</p>
+									<p className="mt-8">
+										Every ceremony we create is a testament to the exceptional individuals and love stories it celebrates. With us, you can trust that your special moments will be transformed into unforgettable, one-of-a-kind experiences.
+									</p>
+								</div>
+							</div>
+
 						</div>
-						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-							{/* <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
-								{features.map((feature) => (
-									<div key={feature.id} id={feature.id} className="flex flex-col">
-										<dt className="text-base font-medium leading-7 text-aoc-pink-light">
-											<div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg">
-												<feature.icon className="h-6 w-6" aria-hidden="true" />
-											</div>
-											{feature.name}
-										</dt>
-										<dd className="mt-1 flex flex-auto flex-col text-base leading-7 font-light text-aoc-pink-light">
-											<p className="flex-auto">{feature.description}</p>
-											<p className="mt-6">
-												<a href={feature.href} className="text-sm font-extralight leading-6 text-aoc-pink">
-													Learn more <span aria-hidden="true">→</span>
-												</a>
-											</p>
-										</dd>
-									</div>
-								))}
-							</dl> */}
-						</div>
+							
 					</div>
 				</div>
 			</Container>
