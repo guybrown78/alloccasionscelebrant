@@ -26,7 +26,7 @@ export function About(){
 								</div>
 								<div>
 									<p>
-										Each celebration becomes a canvas, where your unique story takes center stage. Whether it's a wedding, vow renewal, naming ceremony, or a farewell tribute, we sculpt these moments into works of art that resonate with your emotions and dreams. 
+										Each occasion becomes a canvas, where your unique story takes center stage. Whether it's a wedding, vow renewal, naming ceremony, or a farewell tribute, we sculpt these moments into works of art that resonate with your emotions and dreams. 
 									</p>
 									<p className="mt-8">
 										Every ceremony we create is a testament to the exceptional individuals and love stories it celebrates. With us, you can trust that your special moments will be transformed into unforgettable, one-of-a-kind experiences.
