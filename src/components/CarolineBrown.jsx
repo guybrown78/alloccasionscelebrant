@@ -17,22 +17,17 @@ export function CarolineBrown(){
 								</div>
 							</div>
 							<div>
-								<div className="text-base leading-7 text-aoc-navy lg:max-w-lg">
-									<p className="text-base font-light leading-7 text-aoc-navy bg-aoc-pink px-2">Head Celebrant</p>
+								<div className="text-lg leading-7 text-aoc-navy lg:max-w-lg">
+									<p className="text-base font-light bg-aoc-pink px-2">Head Celebrant</p>
 									<h1 className="mt-2 text-3xl font-light tracking-tight text-aoc-navy sm:text-4xl">
 										Caroline Brown
 									</h1>
 									<div className="max-w-xl">
 										<p className="mt-6">
-											Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-											vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-											erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-											semper sed amet vitae sed turpis id.
+											Meet Caroline, the heart and soul behind our celebrancy services. Caroline is a passionate and experienced celebrant who approaches every ceremony with warmth and creativity. With a deep commitment to making your special moments truly extraordinary, she's the driving force behind our dedication to crafting unique, meaningful celebrations. 
 										</p>
 										<p className="mt-8">
-											Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie
-											auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-											hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+											Caroline's ability to infuse personal touches and imagination into each ceremony ensures that your event is a reflection of your dreams and emotions, making it an unforgettable experience. She's not just an officiant; she's your trusted guide to creating cherished memories.
 										</p>
 									</div>
 								</div>

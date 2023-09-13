@@ -127,7 +127,7 @@ export function Footer() {
 								<ul role="list" className="mt-6 space-y-4">
                  
                     <li>
-                      <a href="#" className="text-sm leading-4 text-slate-600 hover:text-slate-900">
+                      <a href="tel:+447459 953658" className="text-sm leading-4 text-slate-600 hover:text-slate-900">
                         07459 953658
                       </a>
 										</li>

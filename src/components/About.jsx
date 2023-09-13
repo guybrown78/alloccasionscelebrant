@@ -15,7 +15,7 @@ export function About(){
 						
 								<h2 className="text-3xl font-light tracking-tight text-aoc-navy-dark sm:text-4xl">Celebrating Life's Moments: Our Brand Essence.</h2>
 
-								<div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-lg font-extralight leading-8 text-aoc-navy-dark lg:max-w-none lg:grid-cols-2">
+								<div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-lg font-light leading-8 text-aoc-navy-dark lg:max-w-none lg:grid-cols-2">
 								<div>
 									<p>
 										At All Occasions Celebrant, we proudly stand as independent celebrants, ready to orchestrate memorable moments for all occasions. Our commitment goes beyond mere officiating; we bring a positive and personable presence to every event, ensuring that your journey through life's milestones is not just special but deeply meaningful.
