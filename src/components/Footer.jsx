@@ -160,7 +160,13 @@ export function Footer() {
         </div> */}
 
 
-				<div className="flex justify-center md:justify-end">
+				<div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
+
+					<ul className='text-xs flex space-x-5 ml-0 md:ml-8'>
+						<li><Link href="../info/privacy"className='underline'>Privacy Policy</Link></li>
+						<li><Link href="../info/terms"className='underline'>Terms and Conditions</Link></li>
+						<li><Link href="../info/cookies"className='underline'>Cookie Policy</Link></li>
+					</ul>
 
 					<a href="https://professionalcelebrants.org.uk" target='_blank' className="flex flex-col md:flex-row items-center justify-center md:justify-end py-1 mt-4">
 					<div className="flex flex-col items-end pb-1">

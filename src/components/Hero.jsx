@@ -16,8 +16,8 @@ function GradTop(){
 		<svg className="absolute z-20 top-0 right-0 w-screen h-24">
 				<defs>
 						<linearGradient x1="48.2600925%" y1="100%" x2="48.2600925%" y2="13.5139628%" id="linearGradient-1">
-								<stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
-								<stop stop-color="#FFFFFF" offset="100%"></stop>
+								<stop stopColor="#FFFFFF" stopOpacity="0" offset="0%"></stop>
+								<stop stopColor="#FFFFFF" offset="100%"></stop>
 						</linearGradient>
 				</defs>
 				<rect fill="url(#linearGradient-1)" className="w-screen h-24" />
@@ -29,8 +29,8 @@ function GradBottom(){
 		<svg className="absolute z-20 bottom-0 right-0 w-screen h-24">
 				<defs>
 					<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
-            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
-            <stop stop-color="#FBEAEB" offset="100%"></stop>
+            <stop stopColor="#FFFFFF" stopOpacity="0" offset="0%"></stop>
+            <stop stopColor="#FBEAEB" offset="100%"></stop>
         	</linearGradient>
 				</defs>
 				<rect fill="url(#linearGradient-2)" className="w-screen h-24" />
