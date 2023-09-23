@@ -84,24 +84,24 @@ export function Footer() {
 									<ul role="list" className="mt-6 space-y-4">
 										
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#services-funerals" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Funerals
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#services-weddings" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Weddings
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#services-renewal-of-vows" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Renewal of Vows
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#services-naming-ceremonies" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Naming Ceremonies
-											</a>
+											</Link>
 										</li>
 								</ul>
               </div>
@@ -110,14 +110,19 @@ export function Footer() {
 									<ul role="list" className="mt-6 space-y-4">
 										
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#about" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Company insights
-											</a>
+											</Link>
 										</li>
 										<li>
-											<a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+											<Link href="./#caroline-brown" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Caroline Brown
-											</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="./testimonials/create" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+												Send a testimonial
+											</Link>
 										</li>
 								
 								</ul>
@@ -127,12 +132,12 @@ export function Footer() {
 								<ul role="list" className="mt-6 space-y-4">
                  
                     <li>
-                      <a href="tel:+447459 953658" className="text-sm leading-4 text-slate-600 hover:text-slate-900">
+                      <a href="tel:+447459 953658" className="text-sm leading-4 text-slate-600 hover:text-slate-900 hover:underline">
                         07459 953658
                       </a>
 										</li>
 										<li>
-											<a href="#" className="text-sm leading-4 text-slate-600 hover:text-slate-900">
+											<a href="mailto:caroline@alloccasionscelebrant.com" className="text-sm leading-4 text-slate-600 hover:text-slate-900 hover:underline">
 												caroline@alloccasionscelebrant.com
                       </a>
                     </li>

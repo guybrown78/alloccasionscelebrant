@@ -43,7 +43,7 @@ const formatDate = async () => {
 }
 
 
-export function HelloForm() {
+export function TestimonialCreateForm() {
 
 	const [isLoading, setIsLoading] = useState(false);
 	const [isSuccess, setIsSuccess] = useState(false);
@@ -64,15 +64,12 @@ export function HelloForm() {
 		const date = await formatDate()
 
 		console.log("date", date)
-		base('WebsiteContactForm').create([
+		base('Testimonials').create([
 			{
 				"fields": {
-						FirstName: event.target.first_name.value,
-						LastName: event.target.last_name.value,
-						Email: event.target.email.value,
-						Phone: event.target.phone.value,
+						Name: event.target.name.value,
 						Service: event.target.service.value,
-						Message: event.target.message.value,
+						Testimonial: event.target.testimonial.value,
 						SentDate: date,
 				}
 			},
@@ -104,10 +101,10 @@ export function HelloForm() {
 			</div>
 
 			<h2 className="mt-10 text-lg font-semibold text-aoc-navy">
-				It starts with a hello
+				Share Your Experience
 			</h2>
 			<p className="mt-2 text-sm text-aoc-navy">
-				Whatever you are looking for, we are here to help you along the journey. Simply fill in your contact details, select a service and we'll do the rest.
+				Your feedback is incredibly valuable. Your thoughts, experiences, and kind words hold immense significance. Thank you for taking a moment to share your testimonial.
 			</p>
 
 			<form
@@ -115,41 +112,17 @@ export function HelloForm() {
 				onSubmit={(e) => handleSubmit(e)}
 			>
 				<TextField
-					label="First name"
-					id="first_name"
-					name="first_name"
+					label="name"
+					id="name"
+					name="name"
 					type="text"
-					autoComplete="given-name"
+					autoComplete="name"
+					className='col-span-full'
 					required
-				/>
-				<TextField
-					label="Last name"
-					id="last_name"
-					name="last_name"
-					type="text"
-					autoComplete="family-name"
-					required
-				/>
-				<TextField
-					className="col-span-full"
-					label="Email address"
-					id="email"
-					name="email"
-					type="email"
-					autoComplete="email"
-					required
-				/>
-				<TextField
-					className="col-span-full"
-					label="Phone number"
-					id="phone"
-					name="phone"
-					type="phone"
-					autoComplete="tel"
 				/>
 				<SelectField
 					className="col-span-full"
-					label="What service can we help you with?"
+					label="What service did you experience?"
 					id="service"
 					name="service"
 				>
@@ -160,10 +133,10 @@ export function HelloForm() {
 				</SelectField>
 				<TextAreaField
 					className="col-span-full"
-					label="Message"
-					id="message"
-					name="message"
-					rows={2}
+					label="Your Words"
+					id="testimonial"
+					name="testimonial"
+					rows={5}
 				/>
 				{ !isSuccess && !isError && (
 					<div className="col-span-full">
@@ -171,7 +144,7 @@ export function HelloForm() {
 							{
 								!isLoading && (
 									<span className='flex items-center'>
-										Say hello <span aria-hidden="true" className="ml-2 w-5 h-5 fill-aoc-navy"><ArrowRight /></span>
+										Send you message <span aria-hidden="true" className="ml-2 w-5 h-5 fill-aoc-navy"><ArrowRight /></span>
 									</span>
 									// <span aria-hidden="true">&rarr;</span>
 								)
@@ -189,14 +162,14 @@ export function HelloForm() {
 				{ isSuccess && (
 					<div className="col-span-full bg-green-50 p-4 rounded-md">
 						<p className='font-light text-sm text-aoc-navy'>
-							<span className='font-semibold'>Thank you.</span> Your message has been received, and you will be contacted shortly.
+							<span className='font-semibold'>Thank you.</span> Your words have been received.
 						</p>
 					</div>
 				)}
 				{ isError && (
 					<div className="col-span-full bg-pink-50 p-4 rounded-md">
 						<p className='font-light text-sm text-aoc-navy'>
-							<span className='font-semibold'>Oh dear.</span> There has been a problem while sending your message. This will be resolved as soon as possible. 
+							<span className='font-semibold'>Oh dear.</span> There has been a problem while sending your words. This will be resolved as soon as possible. 
 						</p>
 						<p className='font-light text-sm text-aoc-navy mt-2'>
 							In the meantime, please send any messages direct to <a href="mailto:caroline@alloccasionscelebrant.com" target="_blank" className='font-medium underline cursor-pointer'>caroline@alloccasionscelebrant.com</a>

@@ -102,7 +102,11 @@ export function Services(){
 						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
 							<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
 								{features.map((feature) => (
-									<div key={feature.id} id={feature.id} className="flex flex-col">
+									<div 
+										key={feature.id} 
+										id={feature.id} 
+										className="flex flex-col"
+									>
 										<dt className="text-lg font-medium leading-7 text-aoc-pink-light">
 											<div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg">
 												<feature.icon className="h-6 w-6" aria-hidden="true" />

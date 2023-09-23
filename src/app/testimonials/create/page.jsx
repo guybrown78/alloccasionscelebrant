@@ -4,10 +4,10 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 
 import { SlimLayout } from '@/components/SlimLayout'
-import { HelloForm } from '@/components/HelloForm'
+import { TestimonialCreateForm } from '@/components/TestimonialCreateForm'
 
 export const metadata = {
-  title: 'Message Contact form for All Occasions Celebrant',
+  title: 'Create a new testimonial form for All Occasions Celebrant',
 }
 
 export default function Hello() {
@@ -16,7 +16,7 @@ export default function Hello() {
 		<main>
 			<Header />
 			<SlimLayout>
-				<HelloForm />
+				<TestimonialCreateForm />
 			</SlimLayout>
 			<Footer />
 		</main>
