@@ -10,6 +10,24 @@ import { Logo } from './Logo';
 import Link from 'next/link';
 
 
+const Spinner = () => {
+	return(
+		<svg viewBox="0 0 16 16">
+			<path d="M8 16c-2.137 0-4.146-0.832-5.657-2.343s-2.343-3.52-2.343-5.657c0-1.513 0.425-2.986 1.228-4.261 0.781-1.239 1.885-2.24 3.193-2.895l0.672 1.341c-1.063 0.533-1.961 1.347-2.596 2.354-0.652 1.034-0.997 2.231-0.997 3.461 0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5c0-1.23-0.345-2.426-0.997-3.461-0.635-1.008-1.533-1.822-2.596-2.354l0.672-1.341c1.308 0.655 2.412 1.656 3.193 2.895 0.803 1.274 1.228 2.748 1.228 4.261 0 2.137-0.832 4.146-2.343 5.657s-3.52 2.343-5.657 2.343z" />
+			
+		</svg>
+	)
+
+}
+const ArrowRight = () => {
+	return (
+		<svg viewBox="0 0 16 16">
+			<path d="M9.707 13.707l5-5c0.391-0.39 0.391-1.024 0-1.414l-5-5c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l3.293 3.293h-9.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h9.586l-3.293 3.293c-0.195 0.195-0.293 0.451-0.293 0.707s0.098 0.512 0.293 0.707c0.391 0.391 1.024 0.391 1.414 0z" />
+		</svg>
+	)
+}
+
+
 const formatDate = async () => {
 	let d = new Date(),
 			month = '' + (d.getMonth() + 1),
@@ -152,15 +170,16 @@ export function HelloForm() {
 						<Button type="submit" variant="solid" color="pink" className="w-full">
 							{
 								!isLoading && (
-									<span>
-										Say hello <span aria-hidden="true">&rarr;</span>
+									<span className='flex items-center '>
+										Say hello <span aria-hidden="true" className="ml-2 w-5 h-5 fill-aoc-navy"><ArrowRight /></span>
 									</span>
+									// <span aria-hidden="true">&rarr;</span>
 								)
 							}
 							{
 								isLoading && (
 									<span>
-										Sending <span aria-hidden="true">...</span>
+										Sending <span aria-hidden="true" className="ml-2 w-5 h-5 animate-spin fill-aoc-navy"><Spinner /></span>
 									</span>
 								)
 							}
