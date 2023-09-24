@@ -144,7 +144,7 @@ export function TestimonialCreateForm() {
 							{
 								!isLoading && (
 									<span className='flex items-center'>
-										Send you message <span aria-hidden="true" className="ml-2 w-5 h-5 fill-aoc-navy"><ArrowRight /></span>
+										Send your testimonial <span aria-hidden="true" className="ml-2 w-5 h-5 fill-aoc-navy"><ArrowRight /></span>
 									</span>
 									// <span aria-hidden="true">&rarr;</span>
 								)

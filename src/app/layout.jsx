@@ -2,6 +2,8 @@ import { Poppins } from 'next/font/google'
 import clsx from 'clsx'
 
 import '../styles/tailwind.css'
+import GoogleAnalytics from '../components/GoogleAnalytics'
+import CookieBanner from '../components/CookieBanner'
 
 export const metadata = {
   title: {
@@ -9,7 +11,7 @@ export const metadata = {
     default: 'All Occasions Celebrant - Independent celebrant of all occasions',
   },
   description:
-    'Independent celebrant of all occasions. Providing a positive and personable presence.',
+    'Independent celebrant of all occasions based in Teesside and Middlesbrough. Providing a positive and personable presence for Funerals, Weddings, Renewal of Vows and Naming Ceremonies.',
 }
 
 const poppins = Poppins({
@@ -34,7 +36,11 @@ export default function RootLayout({ children }) {
         poppins.variable
       )}
     >
-      <body className="flex h-full flex-col">{children}</body>
+			<GoogleAnalytics GA_MEASUREMENT_ID='G-R6T1MG7VH0' />
+      <body className="flex h-full flex-col">
+				{children}
+				<CookieBanner />
+			</body>
     </html>
   )
 }
