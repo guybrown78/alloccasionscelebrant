@@ -1,10 +1,10 @@
 
 
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
+import { Footer } from '../../components/Footer'
+import { Header } from '../../components/Header'
 
-import { SlimLayout } from '@/components/SlimLayout'
-import { TestimonialCreateForm } from '@/components/TestimonialCreateForm'
+import { SlimLayout } from '../../components/SlimLayout'
+import { TestimonialCreateForm } from '../../components/TestimonialCreateForm'
 
 export const metadata = {
   title: 'Create a new testimonial form for All Occasions Celebrant',

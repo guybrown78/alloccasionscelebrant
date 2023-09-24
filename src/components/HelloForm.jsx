@@ -1,9 +1,9 @@
 
 'use client'
 
-import { Button } from '@/components/Button'
+import { Button } from './Button'
 
-import { TextField, SelectField, TextAreaField } from '@/components/Fields'
+import { TextField, SelectField, TextAreaField } from './Fields'
 import Airtable from "airtable";
 import { useState } from "react";
 import { Logo } from './Logo';

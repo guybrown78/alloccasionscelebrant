@@ -2,12 +2,11 @@ import Link from 'next/link'
 
 import Image from 'next/image'
 
-import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { LogoStamp } from '@/components/LogoStamp'
-import { NavLink } from '@/components/NavLink'
+import { Container } from './Container'
+import { Logo } from './Logo'
+import { LogoStamp } from './LogoStamp'
 
-import fellowshipOfProfCelLogo from '@/images/fellowship-of-professional-celebrants.png'
+import fellowshipOfProfCelLogo from '../images/fellowship-of-professional-celebrants.png'
 
 export function Footer() {
   return (

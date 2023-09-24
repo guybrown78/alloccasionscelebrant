@@ -1,6 +1,6 @@
 
-import { Container } from '@/components/Container'
-import { LogoStamp } from '@/components/LogoStamp'
+import { Container } from './Container'
+import { LogoStamp } from './LogoStamp'
 
 function Underline(){
 	return (

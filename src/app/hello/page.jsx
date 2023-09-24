@@ -1,10 +1,10 @@
 
 
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
+import { Footer } from '../../components/Footer'
+import { Header } from '../../components/Header'
 
-import { SlimLayout } from '@/components/SlimLayout'
-import { HelloForm } from '@/components/HelloForm'
+import { SlimLayout } from '../../components/SlimLayout'
+import { HelloForm } from '../../components/HelloForm'
 
 export const metadata = {
   title: 'Message Contact form for All Occasions Celebrant',
