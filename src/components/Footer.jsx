@@ -164,9 +164,9 @@ export function Footer() {
         </div> */}
 
 
-				<div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
+				<div className="flex flex-col md:flex-row items-center justify-center md:justify-between mx-0 md:mx-8">
 
-					<ul className='text-xs flex space-x-5 ml-0 md:ml-8'>
+					<ul className='text-xs flex flex-row md:flex-col lg:flex-row space-x-5 space-y-0 md:space-x-0 md:space-y-1 lg:space-x-5 lg:space-y-0'>
 						<li><Link href="../info/privacy"className='underline'>Privacy Policy</Link></li>
 						<li><Link href="../info/terms"className='underline'>Terms and Conditions</Link></li>
 						<li><Link href="../info/cookies"className='underline'>Cookie Policy</Link></li>
@@ -193,12 +193,12 @@ export function Footer() {
 				
 			</Container>	
 
-			<div className="border-t border-aoc-pink-dark/40 bg-aoc-pink/10">
+			<div className="border-t border-aoc-pink-dark/40 bg-aoc-pink/10" >
 				<Container>
-					<div className="flex flex-col items-center py-10 sm:flex-row-reverse sm:justify-between">
+					<div className="flex flex-col items-center py-10 px-6	lg:px-8 sm:flex-row-reverse sm:justify-between">
 						
 							<LogoStamp className="w-16 sm:w-20 fill-aoc-pink/80"/>
-							<p className="mt-6 text-center md:text text-sm text-slate-500 sm:mt-0">
+							<p className="mt-6 text-center text-xs mdtext-sm text-slate-500 sm:mt-0">
 								Copyright &copy; {new Date().getFullYear()} All Occasions Celebrant. All&nbsp;rights&nbsp;reserved.
 							</p>
 							

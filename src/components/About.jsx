@@ -18,18 +18,18 @@ export function About(){
 								<div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-lg font-light leading-8 text-aoc-navy-dark lg:max-w-none lg:grid-cols-2">
 								<div>
 									<p>
-										At All Occasions Celebrant, we proudly stand as independent celebrants, ready to orchestrate memorable moments for all occasions. Our commitment goes beyond mere officiating; we bring a positive and personable presence to every event, ensuring that your journey through life's milestones is not just special but deeply meaningful.
+										Proudly standing as an independent celebrant, ready to orchestrate memorable moments for all occasions. Commitment goes beyond officiating; bringing a positive and personable presence to every event, ensuring that your journey through life's milestones is not just special but deeply meaningful.
 									</p>
 									<p className="mt-8">
-										We believe in crafting ceremonies that break free from the mold of 'how it should be' and embrace 'how it could be.' Our imaginative and creative approach allows us to design bespoke ceremonies that are 'just right' for you and your occasion. 
+										Believing in crafting ceremonies that break free from the mould of 'how it should be' and embrace 'how it could be.' With an imaginative and creative approach allowing for the design of bespoke ceremonies that are truly personal and 'just right' for you and your occasion.
 									</p>
 								</div>
 								<div>
 									<p>
-										Each occasion becomes a canvas, where your unique story takes center stage. Whether it's a wedding, vow renewal, naming ceremony, or a farewell tribute, we sculpt these moments into works of art that resonate with your emotions and dreams. 
+										Each occasion becomes a canvas, where your unique story takes centre stage. Whether it's a wedding, vow renewal, naming ceremony or a farewell tribute, these moments will be sculpted into works of art that resonate the significance of the occasion and the people who are at the centre of your story.
 									</p>
 									<p className="mt-8">
-										Every ceremony we create is a testament to the exceptional individuals and love stories it celebrates. With us, you can trust that your special moments will be transformed into unforgettable, one-of-a-kind experiences.
+										Every ceremony created is a testament to the exceptional individuals and love stories it celebrates. You can trust that your special moments will be cared for, with respect and love, and transformed into beautiful, one-of-a-kind occasions.
 									</p>
 								</div>
 							</div>

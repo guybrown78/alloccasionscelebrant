@@ -94,9 +94,9 @@ export function Services(){
 				<div className="py-24 sm:py-32">
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
 						<div className="mx-auto max-w-2xl lg:mx-0">
-							<h2 className="text-3xl font-light tracking-tight text-aoc-pink-light sm:text-4xl">Full Celebrancy Services Tailor-Made for All Occasions.</h2>
+							<h2 className="text-3xl font-light tracking-tight text-aoc-pink-light sm:text-4xl">Celebrancy Services Tailor-Made for All Occasions.</h2>
 							<p className="mt-6 text-lg font-extralight leading-8 text-aoc-pink-light">
-								At All Occasions Celebrant we to listen your needs, communicate ideas and work closely with you, creating beautiful bespoke cereomies. We specialise in infusing your unique story and emotions into unforgettable moments.
+								Listening to your needs, communicating ideas and working closely with you to create beautiful, bespoke and truly personal ceremonies. Specialising in infusing your unique story and sentiment into unforgettable moments.
 							</p>
 						</div>
 						<div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

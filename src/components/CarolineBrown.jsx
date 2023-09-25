@@ -18,16 +18,17 @@ export function CarolineBrown(){
 							</div>
 							<div>
 								<div className="text-lg leading-7 text-aoc-navy lg:max-w-lg">
-									<p className="text-base font-light bg-aoc-pink px-2">Head Celebrant</p>
+									{/* <p className="text-base font-light bg-aoc-pink px-2">Head Celebrant</p> */}
+									<div className="w-full h-2 bg-aoc-pink"></div>
 									<h1 className="mt-2 text-3xl font-light tracking-tight text-aoc-navy sm:text-4xl">
 										Caroline Brown
 									</h1>
-									<div className="max-w-xl">
+									<div className="max-w-xl font-light">
 										<p className="mt-6">
-											Meet Caroline, the heart and soul behind our celebrancy services. Caroline is a passionate and experienced celebrant who approaches every ceremony with warmth and creativity. With a deep commitment to making your special moments truly extraordinary, she's the driving force behind our dedication to crafting unique, meaningful celebrations. 
+											Meet Caroline, the heart and soul behind All Occasions Celebrant. Caroline is a passionate, fully trained celebrant who approaches every occasion with respect, warmth and creativity. With a deep commitment to making your special moments truly extraordinary, she's the driving force behind crafting unique and meaningful ceremonies. With a wealth of experience in presentation, she brings an ability to be flexible in the command of a space and encouraging the tone and atmosphere of all occasions.
 										</p>
 										<p className="mt-8">
-											Caroline's ability to infuse personal touches and imagination into each ceremony ensures that your event is a reflection of your dreams and emotions, making it an unforgettable experience. She's not just an officiant; she's your trusted guide to creating cherished memories.
+											Naturally positive and personable, people and their stories are a true passion. Caroline's ability to infuse personal touches and imagination into each ceremony ensures that your event is a true reflection of you and what you’d like from your occasion.  She's not just an officiant; she's your trusted guide to creating cherished memories.
 										</p>
 									</div>
 								</div>
