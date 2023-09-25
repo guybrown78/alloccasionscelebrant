@@ -9,10 +9,30 @@ import { Button } from './Button'
 import { Container } from './Container'
 import { Logo } from './Logo'
 import { NavLink } from './NavLink'
+import { usePathname, useRouter } from 'next/navigation'
 
 function MobileNavLink({ href, children }) {
+
+	const router = useRouter();
+	const pathname = usePathname();
+
+	const handleAnchor = (event) => {
+		if(pathname === "/"){
+			if (href.includes("#")) {
+				// event.preventDefault();
+				window.location.hash = ''
+				window.location.hash = href
+			}
+		}else{
+			router.push(`../${href}`)
+		}
+	}
+
   return (
-    <Popover.Button as={Link} href={href} className="block w-full p-2">
+    <Popover.Button 
+			onClick={(e) => handleAnchor(e)}
+			className="block w-full p-2"
+		>
       {children}
     </Popover.Button>
   )
@@ -79,7 +99,7 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-aoc-navy shadow-xl ring-1 ring-aoc-navy/5"
           >
-            <MobileNavLink href="#services<">Services</MobileNavLink>
+            <MobileNavLink href="#services">Services</MobileNavLink>
             <MobileNavLink href="#about">About</MobileNavLink>
             <MobileNavLink href="#contact">Contact</MobileNavLink>
             {/* <hr className="m-2 border-slate-300/40" /> */}

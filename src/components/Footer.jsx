@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 
 import Image from 'next/image'
@@ -7,8 +9,27 @@ import { Logo } from './Logo'
 import { LogoStamp } from './LogoStamp'
 
 import fellowshipOfProfCelLogo from '../images/fellowship-of-professional-celebrants.png'
+import { usePathname, useRouter } from 'next/navigation'
 
 export function Footer() {
+
+
+	const router = useRouter();
+	const pathname = usePathname();
+
+	const handleAnchor = (event, href) => {
+		event.preventDefault();
+		if(pathname === "/"){
+			if (href.includes("#")) {
+				window.location.hash = ''
+				window.location.hash = href
+			}
+		}else{
+			router.push(`../${href}`)
+		}
+	}
+
+
   return (
     <footer className="bg-white">
       <Container>
@@ -83,22 +104,34 @@ export function Footer() {
 									<ul role="list" className="mt-6 space-y-4">
 										
 										<li>
-											<Link href="./#services-funerals" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#services-funerals" 
+												onClick={(e) => handleAnchor(e, '#services-funerals')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Funerals
 											</Link>
 										</li>
 										<li>
-											<Link href="./#services-weddings" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#services-weddings" 
+												onClick={(e) => handleAnchor(e, '#services-weddings')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Weddings
 											</Link>
 										</li>
 										<li>
-											<Link href="./#services-renewal-of-vows" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#services-renewal-of-vows" 
+												onClick={(e) => handleAnchor(e, '#services-renewal-of-vows')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Renewal of Vows
 											</Link>
 										</li>
 										<li>
-											<Link href="./#services-naming-ceremonies" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#services-naming-ceremonies" 
+												onClick={(e) => handleAnchor(e, '#services-naming-ceremonies')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Naming Ceremonies
 											</Link>
 										</li>
@@ -109,17 +142,25 @@ export function Footer() {
 									<ul role="list" className="mt-6 space-y-4">
 										
 										<li>
-											<Link href="./#about" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#about" 
+												onClick={(e) => handleAnchor(e, 'about')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Company insights
 											</Link>
 										</li>
 										<li>
-											<Link href="./#caroline-brown" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="#caroline-brown" 
+												onClick={(e) => handleAnchor(e, '#caroline-brown')}
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Caroline Brown
 											</Link>
 										</li>
 										<li>
-											<Link href="./testimonials/create" className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
+											<Link 
+												href="./testimonials/create" 
+												className="text-sm leading-6 text-gray-600 hover:text-gray-900 hover:underline">
 												Send a testimonial
 											</Link>
 										</li>
