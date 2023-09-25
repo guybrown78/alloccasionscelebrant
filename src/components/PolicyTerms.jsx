@@ -6,7 +6,7 @@ export function PolicyTerms() {
     <Container>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none space-y-4">
-					<h2 className='text-lg font-bold'>Privacy Policy for alloccasionscelebrant.com</h2>
+					<h2 className='text-lg font-bold'>Terms and Conditions</h2>
 					<p>Last updated: September 2023</p>
 
 					<p>Please read these Terms and Conditions ("Terms") carefully before using All Occasions Celebrant ("we," "our," or "us") website and services.</p>
