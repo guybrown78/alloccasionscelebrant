@@ -112,7 +112,7 @@ export function TestimonialCreateForm() {
 				onSubmit={(e) => handleSubmit(e)}
 			>
 				<TextField
-					label="name"
+					label="Name"
 					id="name"
 					name="name"
 					type="text"
@@ -126,14 +126,14 @@ export function TestimonialCreateForm() {
 					id="service"
 					name="service"
 				>
-					<option>Funerals</option>
-					<option>Weddings</option>
+					<option>Funeral</option>
+					<option>Wedding</option>
 					<option>Renewal of Vows</option>
-					<option>Naming Ceremonies</option>
+					<option>Naming Ceremonie</option>
 				</SelectField>
 				<TextAreaField
 					className="col-span-full"
-					label="Your Words"
+					label="Your thoughts"
 					id="testimonial"
 					name="testimonial"
 					rows={5}
