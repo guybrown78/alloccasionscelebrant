@@ -5,9 +5,13 @@ import { Button } from './Button'
 export function CallToAction(){
 	return(
 
-		<section className="bg-aoc-navy-dark">
+		<section 
+			id="call-to-action"
+			className="bg-aoc-navy-dark"
+			aria-label="Ready to get in touch with All Occasions Celebrant? How to start the process."
+		>
 
-			<Container id="call-to-action">
+			<Container>
 
 
 				<div className="py-24 sm:py-32">

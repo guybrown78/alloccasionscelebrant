@@ -86,9 +86,13 @@ const features = [
 export function Services(){
 	return(
 
-		<section className="bg-aoc-navy-dark">
+		<section 
+			id="services"
+			aria-label="All our celebrancy services. Find out about our funeral, weddings, renewal of vows and naming ceremony occasions"
+			className="bg-aoc-navy-dark"
+		>
 
-			<Container id="services">
+			<Container>
 
 
 				<div className="py-24 sm:py-32">

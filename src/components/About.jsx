@@ -4,9 +4,13 @@ import { Container } from './Container'
 export function About(){
 	return(
 
-		<section className="bg-aoc-pink">
+		<section 
+			id="about"
+			aria-label="All Occasions Celebrant. About our ceremonies and our ethos behind each bespoke occasion."
+			className="bg-aoc-pink"
+		>
 
-			<Container id="about">
+			<Container>
 
 
 				<div className="py-24 sm:py-32">
@@ -17,6 +21,8 @@ export function About(){
 
 								<div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-lg font-light leading-8 text-aoc-navy-dark lg:max-w-none lg:grid-cols-2">
 								<div>
+
+									
 									<p>
 										Proudly standing as an independent celebrant, ready to orchestrate memorable moments for all occasions. Commitment goes beyond officiating; bringing a positive and personable presence to every event, ensuring that your journey through life's milestones is not just special but deeply meaningful.
 									</p>
