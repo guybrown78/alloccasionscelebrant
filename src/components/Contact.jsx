@@ -31,8 +31,8 @@ export function Contact(){
 								</div>
 								<div>
 									<h4 className="mb-2 text-md font-medium leading-4 text-slate-600">Telephone</h4>
-									<a href="tel:+447843 469738" className="text-md leading-4 text-slate-600 hover:text-slate-900 hover:underline">
-										07843 469738
+									<a href="tel:+447843498738" className="text-md leading-4 text-slate-600 hover:text-slate-900 hover:underline">
+										07843 498738
 									</a>
 								</div>
 								<div>

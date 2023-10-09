@@ -23,7 +23,7 @@ export function CallToAction(){
 							Let's start crafting your unique ceremony together.
 						</p>
 						<div className="mt-10 py-2 flex items-center justify-center gap-x-6">
-							<Button href="tel:+447843 469738" color="pink" variant='outline'>Phone</Button>
+							<Button href="tel:+447843498738" color="pink" variant='outline'>Phone</Button>
 							<Button href="/hello" color="pink">Say hello</Button>
 						</div>
 					</div>
