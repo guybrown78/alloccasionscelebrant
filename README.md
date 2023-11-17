@@ -1,7 +1,11 @@
 # All Occasions Celebrant
 
 
-All Occasions Celebrant marketing site is built from Salient. Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Live site: [alloccasionscelebrant.com](https://alloccasionscelebrant.com/).
+
+All Occasions Celebrant marketing site is built from React and TailwindCSS
+
+The forms submit to Airtable. You'll need an ACCESS_TOKEN and AIRTABLE_BASE to post the form, or just comment out the airtable promise to recreate the flow
 
 ## Getting started
 
